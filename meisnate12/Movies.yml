@@ -10,6 +10,8 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
+    delete_below_minimum: true
 collections:
   101 Dalmatians:
     template: {name: Collection, collection: 100693}
